@@ -51,6 +51,15 @@ dependencies can be found in [requirements.txt][] these can be installed
 system-wide with `pip`.
 
     sudo apt-get install python-pip
+
+Helpful packages to ensure a working installation (python2):
+
+	sudo apt-get install python-dev
+	sudo apt-get install libevent-dev
+	sudo apt-get install libsqlite3-dev
+
+Keep on:
+
     sudo pip install -r requirements.txt
 
 Or you can use virtual env to create a isolated python environment by running:
