@@ -53,6 +53,7 @@ system-wide with `pip`.
     sudo apt-get install python-pip
 
 Helpful packages to ensure a working installation (python2):
+*also check debian-packages-deps !*
 
 	sudo apt-get install python-dev
 	sudo apt-get install libevent-dev
